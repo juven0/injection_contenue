@@ -12,3 +12,16 @@ def login():
 @userView.route('/signin', methods = ['GET', 'POST'])
 def signin():
     data = request.form
+
+@userView.route('/profile', methods= ['GET'])
+def profile():
+    #a faire 
+    pass
+
+@userView.route('/edit', methods = ['POST'])
+def edit():
+    data = request.form
+
+@userView.route('/logout', methods = ['GET'])
+def logout():
+    pass
